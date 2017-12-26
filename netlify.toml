@@ -1,0 +1,13 @@
+# Global settings applied to the whole site.
+#
+# "base": directory to change to before starting build. If set,
+#   that's where we will look for package.json/.nvmrc/etc, not repo root!
+# "command": your build command.
+# "publish": the directory to publish (relative to root of your repo).
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.31.1"
