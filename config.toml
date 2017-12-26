@@ -3,7 +3,7 @@ theme = "bilberry-hugo-theme"
 enableRobotsTXT = true
 
 title = "My Blog"
-copyright = "2017 Juan Navarro"
+copyright = "{year} Juan Navarro"
 
 # Change to your content language. Supported values: en, de, es, fr, ru
 defaultContentLanguage = "en"
