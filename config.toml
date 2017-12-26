@@ -1,17 +1,21 @@
-title = "My cool new Blog"
-baseURL = "https://example.com"
+baseURL = "http://www.j1n.es/"
 theme = "bilberry-hugo-theme"
-
 enableRobotsTXT = true
 
+title = "My Blog"
+copyright = "2017 Juan Navarro"
+
 # Change to your content language. Supported values: en, de, es, fr, ru
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
+
+# RSS Language Code
+languageCode = "en-us"
 
 # Enable / Disable Google Analytics statistics for your site
 googleAnalytics = ""
 
 # Enable / Disable comments on the articles via Disqus.
-disqusShortname = "bilberry-hugo-theme"
+# disqusShortname = "bilberry-hugo-theme"
 
 [params]
   # Favicon for the browser's favorites and tabs
@@ -25,21 +29,21 @@ disqusShortname = "bilberry-hugo-theme"
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  author = "Juan Navarro"
+  description = "Website of Juan Navarro"
 
   # How many articles should be displayed at once?
-  paginate = 7
+  paginate = 3
 
   # Enable / Disable MathJax
   enable_mathjax    = false
 
   # Enable / Disable algolia search
-  algolia_search    = true
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
-  algolia_indexName = "default-content"
+  algolia_search    = false
+  #algolia_appId     = "Y2C4RWMPXW"
+  #algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  #algolia_indexName = "default-content"
 
   # Header configuration
     # your subtitle if you want to use any
@@ -52,24 +56,24 @@ disqusShortname = "bilberry-hugo-theme"
     customImage = ""
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
+    permanentTopNav = true
 
-  # social media profile urls for the footer links
+  # Social media profile URLs, for the footer links
   facebook   = ""
-  twitter    = "https://twitter.com/TheRealLednerb"
+  twitter    = "https://twitter.com/j1elo"
   googleplus = ""
   pinterest  = ""
   instagram  = ""
   tumblr     = ""
   youtube    = ""
   vimeo      = ""
-  github     = "https://github.com/Lednerb"
+  github     = "https://github.com/j1elo"
 
-# don't change anything here
+# Don't change anything here
 [taxonomies]
   author   = "author"
-  tag      = "tags"
   category = "categories"
+  tag      = "tags"
 
 [outputs]
   home = [ "HTML", "JSON" ]
