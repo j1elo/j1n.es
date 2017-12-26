@@ -29,9 +29,19 @@ googleAnalytics = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
   author = "Juan Navarro"
   description = "Website of Juan Navarro"
+  keywords = """\
+    blog,personal,responsive,search,pages,posts,multilingual,\
+    it,computer,software,engineering,software developer,software engineering,\
+    linux,ubuntu,c++,c,c programming,python,bash,shell,qt,qt creator,qmake,\
+    embedded,firmware,embedded firmware,atmel,avr,atmel avr,\
+    kshow,vpod,realtime,real time,\
+    multimedia,media,media server,audio,video,video conferencing,\
+    webrtc,webrtc server,stun,stun server,turn,turn server,\
+    kurento,kms,kurento server,openvidu,\
+    gstreamer,rtsp player,streaming,live streaming
+    """
 
   # How many articles should be displayed at once?
   paginate = 3
