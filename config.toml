@@ -88,3 +88,13 @@ googleAnalytics = ""
 [outputs]
   home = [ "HTML", "JSON" ]
   page = [ "HTML" ]
+
+[Languages]
+  [Languages.en]
+    languageName = "English"
+    weight = 1
+
+  [Languages.es]
+    languageName = "Español"
+    weight = 2
+    title = "Mi Blog"
