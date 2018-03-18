@@ -1,0 +1,26 @@
+<!--
+Source: bilberry-hugo-theme/layouts/partials/default-content.html
+Changes: Don't show the date for content of type 'page'.
+-->
+<div class="content">
+    <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+    <div class="meta">
+        {{ with .Params.categories }}
+            <span class="categories">
+                {{ range . }}
+                    <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </span>
+        {{ end }}
+    </div>
+
+    {{ if or (.Scratch.Get "singlePage") (.Params.noSummary) }}
+        {{ .Content }}
+    {{ else }}
+        {{ .Summary }}
+
+        {{ if .Truncated }}
+            <a href="{{ .URL }}" class="more">{{ i18n "continueReading" }}</a>
+        {{ end }}
+    {{ end }}
+</div>
