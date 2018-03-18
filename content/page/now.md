@@ -1,7 +1,7 @@
 ---
 title: "Now"
 date: 2018-03-18T02:31:49+01:00
-draft: true
+draft: false
 
 featuredImage: ""
 author: "Juan"
