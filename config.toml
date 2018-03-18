@@ -1,20 +1,22 @@
 baseURL = "http://www.j1n.es/"
 theme = "bilberry-hugo-theme"
-enableRobotsTXT = true
 
-title = "My Blog"
 copyright = "{year} Juan Navarro"
 
-# Change to your content language. Supported values: en, de, es, fr, ru
+# Content without language indicator will default to this language
+# Supported values: en, de, es, fr, ru
 defaultContentLanguage = "en"
 
 # RSS Language Code
 languageCode = "en-us"
 
-# Enable / Disable Google Analytics statistics for your site
+# Enable generation of 'robots.txt' file
+enableRobotsTXT = true
+
+# Google Analytics tracking ID (disabled if empty)
 googleAnalytics = ""
 
-# Enable / Disable comments on the articles via Disqus.
+# Enable / Disable comments on the articles via Disqus
 # disqusShortname = "bilberry-hugo-theme"
 
 [params]
@@ -57,7 +59,7 @@ googleAnalytics = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    #subtitle = "Hello World! This is the most epic subtitle ever."
 
     # if you want to use gravatar for the header image
     gravatarEMail = ""
@@ -93,8 +95,11 @@ googleAnalytics = ""
   [Languages.en]
     languageName = "English"
     weight = 1
+    title = "A rarely updated blog"
+    subtitle = "— technical notes and not much else"
 
   [Languages.es]
     languageName = "Español"
     weight = 2
-    title = "Mi Blog"
+    title = "Un blog sin mucho movimiento"
+    subtitle = "— notas técnicas y poco más"
