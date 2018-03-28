@@ -1,4 +1,4 @@
-baseURL = "http://www.j1n.es/"
+baseURL = "https://www.j1n.es/"
 theme = "bilberry-hugo-theme"
 
 copyright = "{year} Juan Navarro"
