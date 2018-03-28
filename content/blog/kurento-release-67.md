@@ -11,7 +11,7 @@ tags: ["release"]
 
 It's been a while since Kurento was [acqui-hired by Twilio][1-1], more than one year ago. Since then, the project lost almost all of its momentum, and it entered a "minimal maintenance" mode. Understandably, [some people][1-2] were wondering whether the Kurento Media Server would end up becoming abandonware.
 
-Fear not, work hasn't stopped behind the curtains. On the contrary: a new team has been formed, and lots of necessary infrastructure updates have been introduced. We know that the rhythm has been slow, but believe us when we say that we are ready to start ~rocking~ streaming again!
+Fear not, work hasn't stopped behind the curtains. On the contrary: a new team has been formed, and lots of necessary infrastructure updates have been introduced. We know that the rhythm has been slow, but believe us when we say that we are ready to start ~~rocking~~ streaming again!
 
 So let's talk about the new team behind Kurento, what is the current status of the project, the roadmap for the future, and a new complementary project started by this team: **[OpenVidu][1-3]**. Last but not least, let us introduce a new official release, which marks the start of this new development cycle for the project: **Kurento 6.7**.
 
