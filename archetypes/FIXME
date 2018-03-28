@@ -1,0 +1,8 @@
+Problem:
+If just a single archetype file is overriden by the user, Hugo overrides the whole archetypes folder.
+
+Workaround:
+Copied all archetypes from the theme to the user folder. If one day this issue gets fixed, only the archetypes that I actually want to override would be stored in this folder.
+
+See:
+https://discourse.gohugo.io/t/hugo-doesnt-use-theme-archetypes/8382/20
