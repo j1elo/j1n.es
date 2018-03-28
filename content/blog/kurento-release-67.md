@@ -19,6 +19,10 @@ So let's talk about the new team behind Kurento, what is the current status of t
 [1-2]: https://bloggeek.me/whats-new-jitsi-videobridge/
 [1-3]: http://openvidu.io/
 
+----
+
+*Originally published here: [Kurento 6.7: Moving Forward](https://www.kurento.org/blog/kurento-67-moving-forward)*
+
 <!--more-->
 
 ## Development team
@@ -226,9 +230,3 @@ Kurento is formed by a small team of people. This means that our task pipeline i
 If you have some needs that require urgent attention, or want to help with funding development on the Kurento project, we offer consultancy and support services on demand. Please contact us at: [openvidu@gmail.com][6-1] and let us know about your project.
 
 [6-1]: mailto:openvidu@gmail.com
-
-
-
-----
-
-*Originally published here: [Kurento 6.7: Moving Forward](https://www.kurento.org/blog/kurento-67-moving-forward)*
