@@ -1,12 +1,12 @@
 ---
 title: "Kurento 6.7: Moving Forward"
 date: 2018-03-22T20:33:42+01:00
-author: "Juan"
 draft: false
 
 featuredImage: ""
 categories: ["kurento"]
 tags: ["release"]
+author: "Juan"
 ---
 
 It's been a while since Kurento was [acqui-hired by Twilio][1-1], more than one year ago. Since then, the project lost almost all of its momentum, and it entered a "minimal maintenance" mode. Understandably, [some people][1-2] were wondering whether the Kurento Media Server would end up becoming abandonware.
